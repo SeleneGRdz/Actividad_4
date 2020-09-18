@@ -32,7 +32,9 @@ while True:
             elif op==4:
                 break
     elif op==2:
-        pass
+        x = int(input("Ingresa tu dia de nacimiento[DD]: "))
+        y = int(input("Ingresa tu mes de nacimiento[MM]: "))
+        m.signo(x,y)
 
     elif op==3:
         pass
