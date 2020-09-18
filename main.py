@@ -37,6 +37,8 @@ while True:
         m.signo(x,y)
 
     elif op==3:
-        pass
+        x = int(input("Ingresa el límite: "))
+        m.numero(x)
+
     elif op==4:
         break

@@ -1,4 +1,5 @@
 from math import pi
+import math
 
 class Mate:
     def cuadrado(self, x:int):
@@ -35,4 +36,11 @@ class Mate:
             print("Tu signo es Sagitario")
         elif (x>=22 and y==12) or (x<=19 and y==1):
             print("Tu signo es Capricornio")
-    
+        
+    def numero(self, limite:int):
+        n = 0
+        e = 0
+        while n<limite:
+            e += 1/math.factorial(n)
+            n = n+1
+        print("El resultado es: "+str(e))
