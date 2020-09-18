@@ -5,8 +5,8 @@ m = Mate()
 while True:
     print("\nActividad_4")
     print("1. Áreas de figuras")
-    print("2. Signos zodiacáles")
-    print("3. Calculo número e")
+    print("2. Signos zodiacales")
+    print("3. Cálculo número e")
     print("4. Salir")
     op = int(input("Elige tu opción: "))
 
